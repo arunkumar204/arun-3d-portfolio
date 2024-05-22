@@ -166,7 +166,7 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: linkedin,
+        iconUrl: car,
         theme: 'btn-back-blue',
         name: 'Linkedin Clone',
         description: 'a web application built using Tailwind CSS, a utility-first CSS framework. Tailwind CSS simplifies the styling process by providing pre-designed classes that can be easily applied to elements.',
