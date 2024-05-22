@@ -11,15 +11,11 @@ import {
     javascript,
     linkedin,
     mongodb,
-    motion,
-    mui,
     nextjs,
     nodejs,
-    pricewise,
     react,
     redux,
     sass,
-    snapgram,
     summiz,
     tailwindcss,
     threads,
@@ -61,11 +57,6 @@ export const skills = [
         imageUrl: mongodb,
         name: "MongoDB",
         type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
     },
     {
         imageUrl: nextjs,
@@ -136,7 +127,7 @@ export const experiences = [
         company_name: "Byte Royalty",
         icon: meta,
         iconBg: "#a2d2ff",
-        date: "February 2024 - Present",
+        date: "February 2024 - April 2024",
         points: [
             "Combining frontend and backend skills to create end-to-end web solutions.",
             "Managing project architecture and database design for seamless integration.",
@@ -166,22 +157,22 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: car,
+        iconUrl: linkedin,
         theme: 'btn-back-blue',
         name: 'Linkedin Clone',
-        description: 'a web application built using Tailwind CSS, a utility-first CSS framework. Tailwind CSS simplifies the styling process by providing pre-designed classes that can be easily applied to elements.',
+        description: 'A web application built using Tailwind CSS, a utility-first CSS framework. Tailwind CSS simplifies the styling process by providing pre-designed classes that can be easily applied to elements.',
         link: 'https://arunkumarlinkedin2-o-l8l4.vercel.app/',
     },
     {
-        iconUrl: car,
-        theme: 'btn-back-blue',
+        iconUrl: threads,
+        theme: 'btn-back-green',
         name: '3D Portfolio',
         description: 'They create still and moving images and visual effects using computers. These images could be anything from characters to environments to special effects. 3D animations can be created for things like film, TV, or video games.',
-        link: 'https://3d-arunportfolio.vercel.app/',
+        link: 'https://3d-update.vercel.app/',
     },
     {
-        iconUrl: game,
-        theme: 'btn-back-pink',
+        iconUrl: car,
+        theme: 'btn-back-blue',
         name: '3D Game',
         description: '3D gaming refers to interactive computer entertainment games with characteristics of three-dimensional graphics: height, width, and depth. 3D gaming is believed to create immersive experience in a virtual worlds with realistic representations.',
         link: 'https://master--lighthearted-beijinho-6ee493.netlify.app/',
@@ -190,8 +181,14 @@ export const projects = [
         iconUrl: estate,
         theme: 'btn-back-black',
         name: 'Chat',
-        description: 'I developed a Gemini clone using React.js that interacts with the Gemini cryptocurrency exchange API. This project showcases my ability to integrate third-party APIs into a modern frontend framework to build a dynamic, data-driven application.',
+        description: 'Developed a Gemini clone using React.js that interacts with the Gemini cryptocurrency exchange API. This project showcases my ability to integrate third-party APIs into a modern frontend framework to build a dynamic, data-driven application.',
         link: 'https://arun-chat.vercel.app/',
     },
-    
+    {
+        iconUrl: summiz,
+        theme: 'btn-back-yellow',
+        name: 'Yoom Website',
+        description: 'Developed a Zoom clone application using Next.js. The primary goal was to build a real-time video conferencing application that emulates the core functionalities of Zoom, leveraging modern web technologies. This project showcases my skills in Next.js, WebRTC, and real-time data synchronization with Socket.io.',
+        link: 'https://arun-zoom.vercel.app/',
+    }
 ];
